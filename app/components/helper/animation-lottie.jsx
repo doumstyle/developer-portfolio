@@ -7,7 +7,7 @@ const AnimationLottie = ({ animationPath, width }) => {
     loop: true,
     autoplay: true,
     animationData: animationPath,
-    style: {
+    rendererSettings: {
       width: '95%',
     }
   };

@@ -85,7 +85,7 @@ function HeroSection() {
               target="_blank"
               href={personalData.resume}
             >
-              <span>Téléchargez CV</span>
+              <span>Télécharger CV</span>
               <MdDownload size={16} />
             </Link>
           </div>
