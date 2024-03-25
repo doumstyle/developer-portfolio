@@ -126,7 +126,7 @@ function ContactForm() {
           <div className="flex flex-col items-center gap-2">
             {error.required && (
               <p className="text-sm text-red-400">
-                L'émail et le message sont requis !
+                Email et message sont requis !
               </p>
             )}
             <button
