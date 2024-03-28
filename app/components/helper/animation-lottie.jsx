@@ -8,8 +8,9 @@ const AnimationLottie = ({ animationPath, width }) => {
     autoplay: true,
     animationData: animationPath,
     rendererSettings: {
-      width: '95%',
-    }
+      preserveAspectRatio: "xMidYMid slice"
+    },
+    width: '95%',
   };
 
   return (
